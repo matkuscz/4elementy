@@ -77,13 +77,31 @@ class Main
   puts 'Lets prepare spells'
 
   # Learn player spells
+
+    # Create spell - elemental Fireball
+      #Create dmg for elemental Fireball
+        @damage = Hash.new()
+        @damage[:fire] = 3
+        @damage[:earth] = 0
+        @damage[:water] = 0
+        @damage[:wind] = 0
+
+      # Create absorb for elemental Fireball
+        @absorb = Hash.new
+        @absorb[:fire] = 1
+        @absorb[:earth] = 0
+        @absorb[:water] = 0
+        @absorb[:wind] = 0
+
     # Create spell - Fireball
     puts 'Creating first spell: Fireball'
-    fireball = Spell.new('Fireball', damage: 3, absorb: 1)
+    fireball = Spell.new('Fireball', Hash.new([@absorb,@damage]))
     puts fireball.to_s
 
     # Create spell - Wall
     puts 'Creating second spell: Wall'
+
+
     wall = Spell.new('Wall', damage: 0, absorb: 6)
     puts wall.to_s
 
