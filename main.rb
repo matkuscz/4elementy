@@ -1,6 +1,7 @@
 require './Classes/Player'
 require './Classes/Tactics'
 require './Classes/FightController'
+require './Classes/FightControllerElemental'
 
 class Main
   # Big bang
@@ -38,9 +39,25 @@ class Main
     puts 'Preparing world'
 
     # Prepare default spell
-      knife = Spell.new('Knife', damage: 1, absorb: 0)
 
-    # Prepare default queue
+      #Create dmg for default spell
+        @damage = Hash.new()
+        @damage[:fire] = 0
+        @damage[:earth] = 1
+        @damage[:water] = 0
+        @damage[:wind] = 0
+
+      # Create absorb for default spell
+        @absorb = Hash.new
+        @absorb[:fire] = 0
+        @absorb[:earth] = 0
+        @absorb[:water] = 0
+        @absorb[:wind] = 0
+
+        knife = Spell.new('Knife', Hash.new([@absorb,@damage]))
+
+
+  # Prepare default queue
       puts 'Preparing default fight tactic for default player'
       tactic_default = Tactics.new( 'default' )
       tactic_default.add_spell_to_queue(knife)
@@ -93,22 +110,38 @@ class Main
         @absorb[:water] = 0
         @absorb[:wind] = 0
 
+        fireball = Spell.new('Fireball', Hash.new([@absorb,@damage]))
+
+        puts fireball.to_s
+
     # Create spell - Fireball
-    puts 'Creating first spell: Fireball'
-    fireball = Spell.new('Fireball', Hash.new([@absorb,@damage]))
-    puts fireball.to_s
+    #  puts 'Creating first spell: Fireball'
+    #  fireball = Spell.new('Fireball', Hash.new([@absorb,@damage]))
+    #  puts fireball.to_s
 
     # Create spell - Wall
-    puts 'Creating second spell: Wall'
-
-
-    wall = Spell.new('Wall', damage: 0, absorb: 6)
-    puts wall.to_s
+    #  puts 'Creating second spell: Wall'
+    #  wall = Spell.new('Wall', damage: 0, absorb: 6)
+    #  puts wall.to_s
 
     # Create spell - Skeleton attack
     puts 'Creating third spell: Skeleton attack'
-    skeleton_attack = Spell.new('Skeleton attack', damage: 2, absorb: 0)
 
+      #Create dmg for skeleton attack
+        @damage = Hash.new()
+        @damage[:fire] = 0
+        @damage[:earth] = 2
+        @damage[:water] = 0
+        @damage[:wind] = 0
+
+      # Create absorb for skeleton attack
+        @absorb = Hash.new
+        @absorb[:fire] = 0
+        @absorb[:earth] = 0
+        @absorb[:water] = 0
+        @absorb[:wind] = 0
+
+      skeleton_attack = Spell.new('Skeleton attack', Hash.new([@absorb,@damage]))
 
     ## Create spellbook for player
     ##puts 'Creating player spellbook'
@@ -120,11 +153,11 @@ class Main
 
     # Add first spell to spellbook
     puts 'Learning new spell'
-    john.learn_spell fireball
+      #john.learn_spell fireball
 
     # Add second spell to spellbook
     puts 'Learning new spell'
-    john.learn_spell wall
+      #john.learn_spell wall
 
 
   # Show spellbook
@@ -176,7 +209,7 @@ class Main
 
 
     # Create arena
-    arena = FightController.new
+    arena = FightControllerElemental.new
 
     # Let that shit happen ... :)
     arena.fight(john, skeleton)

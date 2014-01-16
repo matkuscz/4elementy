@@ -22,7 +22,7 @@ class Spellbook
   def get_spells_print
     puts '+++SPELLBOOK+++'
     puts @spells.to_s
-    puts '+++KONEC SPELLBOOKU+++'
+    puts '+++END OF SPELLBOOK+++'
   end
 
   def get_spells

@@ -20,8 +20,8 @@ class Spell
 #      @stats[:absorb] = {fire: 0, earth: 0, air: 0, water: 0}
 
 
-    @damage = params[:damage]
-    @absorb = params[:absorb]
+    @damage[] = params[:damage]
+    @absorb[] = params[:absorb]
 
     # @damage = { fire: 0, earth: 0, air: 0, water: 0 }
     # @absorb = { fire: 0, earth: 0, air: 0, water: 0 }
@@ -43,6 +43,40 @@ class Spell
 
   def get_spell_name
     @name
+  end
+
+
+
+  def get_spell_fire_dmg
+    @damage[:fire]
+  end
+
+  def get_spell_earth_dmg
+    @damage[:earth]
+  end
+
+  def get_spell_water_dmg
+    @damage[:water]
+  end
+
+  def get_spell_wind_dmg
+    @damage[:wind]
+  end
+
+  def get_spell_fire_absorb
+    @absorb[:fire]
+  end
+
+  def get_spell_earth_absorb
+    @absorb[:earth]
+  end
+
+  def get_spell_water_absorb
+    @absorb[:water]
+  end
+
+  def get_spell_wind_absorb
+    @absorb[:wind]
   end
 
   private

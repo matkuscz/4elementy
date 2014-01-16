@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/SpellElemental.rb" />
+    <list default="true" id="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" name="Default" comment="Upraveno readme">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/FightControllerElemental.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Spell.rb" afterPath="$PROJECT_DIR$/Classes/Spell.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Spellbook.rb" afterPath="$PROJECT_DIR$/Classes/Spellbook.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="4elements.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Player.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389550292391" ignored="false" />
-    <file path="/Spell.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389542240304" ignored="false" />
-    <file path="/Spellbook.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389496125202" ignored="false" />
-    <file path="/main.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389647499954" ignored="false" />
+    <file path="/Spell.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389905725669" ignored="false" />
+    <file path="/Spellbook.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389897364539" ignored="false" />
+    <file path="/main.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389906397260" ignored="false" />
     <file path="/temp.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389545529267" ignored="false" />
     <file path="/a.dummy" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389491646772" ignored="false" />
     <file path="/Tactics.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389496490838" ignored="false" />
     <file path="/FightController.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389545926185" ignored="false" />
-    <file path="/Dummy.txt" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389646912003" ignored="false" />
+    <file path="/Dummy.txt" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389912520582" ignored="false" />
     <file path="/README.md" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389646899821" ignored="false" />
     <file path="/SpellElemental.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389647127890" ignored="false" />
+    <file path="/FightControllerElemental.rb" changelist="35b4bf8d-c1dc-4c4f-9119-d70e6de357ed" time="1389905608627" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,52 +44,7 @@
       <file leaf-file-name="main.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="96" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.7627986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tactics.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Tactics.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spell.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Spell.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="64" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpellElemental.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/SpellElemental.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Player.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="104" column="19" selection-start="4178" selection-end="4178" vertical-scroll-proportion="0.10204082">
               <folding />
             </state>
           </provider>
@@ -95,7 +53,7 @@
       <file leaf-file-name="Spellbook.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Spellbook.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +62,25 @@
       <file leaf-file-name="FightController.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/FightController.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="53" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.0">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spell.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Spell.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FightControllerElemental.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/FightControllerElemental.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,13 +104,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Classes/Spellbook.rb" />
         <option value="$PROJECT_DIR$/Classes/Tactics.rb" />
-        <option value="$PROJECT_DIR$/Classes/Spell.rb" />
         <option value="$PROJECT_DIR$/Classes/FightController.rb" />
         <option value="$PROJECT_DIR$/Classes/Player.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Classes/SpellElemental.rb" />
+        <option value="$PROJECT_DIR$/Classes/Spellbook.rb" />
+        <option value="$PROJECT_DIR$/Classes/FightControllerElemental.rb" />
+        <option value="$PROJECT_DIR$/Classes/Spell.rb" />
         <option value="$PROJECT_DIR$/main.rb" />
       </list>
     </option>
@@ -211,11 +188,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -237,7 +214,9 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/main.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -378,23 +357,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25453576" sideWeight="0.6732673" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25720385" sideWeight="0.67398465" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32673267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32601535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -459,23 +438,18 @@
     <MESSAGE value="Upraveno readme" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Classes/Spell.rb</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classes/FightController.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="53" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Tactics.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
@@ -516,58 +490,70 @@
         <state line="35" column="0" selection-start="1040" selection-end="1072" vertical-scroll-proportion="0.21970555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Spellbook.rb">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/FightController.rb">
+    <entry file="file://C:/Ruby193/lib/ruby/1.9.1/optparse.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="53" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.0">
+        <state line="519" column="10" selection-start="15360" selection-end="15374" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Player.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/SpellElemental.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Spell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="64" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0">
+        <state line="23" column="25" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Tactics.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+        <state line="2" column="35" selection-start="53" selection-end="53" vertical-scroll-proportion="0.049717516">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Classes/Spellbook.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/FightController.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/FightControllerElemental.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Spell.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="96" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.7627986">
+        <state line="104" column="19" selection-start="4178" selection-end="4178" vertical-scroll-proportion="0.10204082">
           <folding />
         </state>
       </provider>
