@@ -73,8 +73,8 @@ class FightControllerElemental
           @dmg_b_water = @spell_b.get_spell_water_dmg - @spell_a.get_spell_water_absorb
           @dmg_b_wind = @spell_b.get_spell_wind_dmg - @spell_a.get_spell_wind_absorb
 
-          puts "Damage to player #{@player_a.get_name}"
-          puts "#{@spell_a.get_spell_name} >>> Dmg: #{@spell_a.get_spell_damage} VS #{@spell_b.get_spell_name} >>> Abs: #{@spell_b.get_spell_absorbtion}"
+          puts "Damage to player #{@player_b.get_name}"
+          #puts "#{@spell_a.get_spell_name} >>> Dmg: #{@spell_a.get_spell_damage} VS #{@spell_b.get_spell_name} >>> Abs: #{@spell_b.get_spell_absorbtion}"
           puts "Fire #{@dmg_a_fire}"
           puts "Earth #{@dmg_a_earth}"
           puts "Water #{@dmg_a_water}"
@@ -83,9 +83,9 @@ class FightControllerElemental
 
       # Calculate damage from player's B spell, to player A
         # Get damage of B spell and lower it equal to A absorbtion
-        @dmg_b = @spell_b.get_spell_damage - @spell_a.get_spell_absorbtion
-        puts "#{@spell_b.get_spell_name} >>> Dmg: #{@spell_b.get_spell_damage} VS #{@spell_a.get_spell_name} >>> Abs: #{@spell_a.get_spell_absorbtion}"
-        puts "Damage to player #{@player_b.get_name}"
+        #@dmg_b = @spell_b.get_spell_damage - @spell_a.get_spell_absorbtion
+        #puts "#{@spell_b.get_spell_name} >>> Dmg: #{@spell_b.get_spell_damage} VS #{@spell_a.get_spell_name} >>> Abs: #{@spell_a.get_spell_absorbtion}"
+        puts "Damage to player #{@player_a.get_name}"
         puts "Fire #{@dmg_b_fire}"
         puts "Earth #{@dmg_b_earth}"
         puts "Water #{@dmg_b_water}"

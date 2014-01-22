@@ -110,7 +110,10 @@ class Main
         @absorb[:water] = 0
         @absorb[:wind] = 0
 
-        fireball = Spell.new('Fireball', Hash.new([@absorb,@damage]))
+        fb_stats = Hash.new
+        fb_stats[:damage] = @damage
+        fb_stats[:absorb] = @absorb
+        fireball = Spell.new('Fireball', fb_stats)
 
         puts fireball.to_s
 
@@ -141,7 +144,11 @@ class Main
         @absorb[:water] = 0
         @absorb[:wind] = 0
 
-      skeleton_attack = Spell.new('Skeleton attack', Hash.new([@absorb,@damage]))
+        sa_stats = Hash.new()
+        sa_stats[:damage] = @damage
+        sa_stats[:absorb] = @absorb
+
+      skeleton_attack = Spell.new('Skeleton attack', sa_stats)
 
     ## Create spellbook for player
     ##puts 'Creating player spellbook'
